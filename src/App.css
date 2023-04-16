@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  background-color: black;
+  height: 60px;
+  color: white;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: flex-end;
+  align-items: center;
+}
+.Navbar h2 {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.text {
+  text-align: center;
+  /* margin: auto; */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+button{
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  width: 110px;
+  cursor: pointer;
+
+}
+.footer{
+  background-color: black;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+.Term {
+  text-align: center;
+  /* max-width: 20rem; */
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ac4141;
+  transition: all 100ms ease-in-out;
+}
+/* .container {
+  display: grid;
+  grid-column: auto;
+
+
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* column-gap: 50px;
+  row-gap: 50px; */
+  /* gap: 50px 50px; */
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  /* grid-column: auto; */
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+
+
+
+*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.grid-item {
+  padding: 10px;
+    width: 33.333%;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
